@@ -222,6 +222,16 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+#mu-menu .navbar-default .navbar-nav li > a:hover{
+    color: LawnGreen;
+    border-bottom: 2px solid lawngreen;
+}
+#mu-menu .navbar-default .navbar-nav li > a:active{
+    color: LawnGreen;
+    border-bottom: 2px solid lawngreen;
+}
+
+
 #mu-menu .navbar-default .navbar-nav li #mu-search-icon:hover, #mu-menu .navbar-default .navbar-nav li #mu-search-icon:focus {
   border: none;
 }
@@ -428,7 +438,7 @@ img {
   width: 100%;
 }
 #mu-service .mu-service-area .mu-service-single {
-  background-color: #01bafd;
+  background-color: lawngreen;
   color: #fff;
   display: inline;
   float: left;
@@ -633,8 +643,10 @@ img {
   width: 100%;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature span {
-  font-size: 25px;
-  padding: 10px 15px;
+    font-size: 25px;
+    padding: 10px 15px;
+    color: LawnGreen;
+    border: 1px solid LawnGreen;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature h4 {
   margin-bottom: 15px;
@@ -2188,12 +2200,12 @@ img {
   }
 
   .navbar-toggle {
-    background-color: #01bafd;
+    background-color: lawngreen;
     border-radius: 0;
   }
 
   .navbar-default .navbar-toggle {
-    border-color: #01bafd;
+    border-color: lawngreen;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -2201,11 +2213,11 @@ img {
   }
 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #01bafd;
+    background-color: lawngreen;
   }
 
   #mu-menu .navbar-default .navbar-nav li > a {
-    padding: 15px 20px;
+      padding: 15px 20px;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content h2 {
@@ -2498,4 +2510,55 @@ img {
   #mu-error .mu-error-area h2 {
     font-size: 100px;
   }
+}
+
+
+ /*OWN CSS*/
+
+#mu-features .mu-features-area .mu-features-content .mu-single-feature a:hover{
+  color: LawnGreen;
+  border-color: LawnGreen;
+}
+#mu-slider .slick-prev, #mu-slider .slick-next{
+  background-color: Gainsboro;
+}
+.scrollToTop {
+  background-color: Gainsboro;
+  border: 2px solid Gainsboro;
+}
+#mu-menu .navbar-default .navbar-nav > .active > a, #mu-menu .navbar-default .navbar-nav > .active > a:hover, #mu-menu .navbar-default .navbar-nav > .active > a:focus{
+  color: LawnGreen;
+  border-bottom: 2px solid LawnGreen;
+  background-color: transparent;
+}
+#mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus{
+  border-color: LawnGreen !important;
+  background-color: lawngreen;
+}
+#mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:hover, #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:focus{
+    color: lawngreen;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn{
+    background-color: lawngreen;
+}
+.mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details{
+    color: lawngreen;
+}
+#mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots .slick-active{
+    background-color: lawngreen;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-right a {
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
+    -ms-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+    transition: all 800ms ease-in-out;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-right a:hover {
+    -webkit-filter: sepia(0.75);
+    filter: sepia(0.75);
+    transform: scale(1.1);
+}
+#mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social{
+    background-color: lawngreen;
 }
