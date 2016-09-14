@@ -2522,9 +2522,12 @@ img {
 #mu-slider .slick-prev, #mu-slider .slick-next{
   background-color: Gainsboro;
 }
+#mu-slider .slick-prev:before, #mu-slider .slick-next:before{
+    color: grey;
+}
 .scrollToTop {
   background-color: Gainsboro;
-  border: 2px solid Gainsboro;
+  border: 2px solid lawngreen;
 }
 #mu-menu .navbar-default .navbar-nav > .active > a, #mu-menu .navbar-default .navbar-nav > .active > a:hover, #mu-menu .navbar-default .navbar-nav > .active > a:focus{
   color: LawnGreen;
@@ -2560,5 +2563,17 @@ img {
     transform: scale(1.1);
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social{
+    background-color: lawngreen;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots .slick-active{
+    background-color: lawngreen !important;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info span{
+    color: lawngreen;
+}
+.fa-angle-up:before {
+    color: grey;
+}
+#mu-slider .mu-slider-single .mu-slider-content span {
     background-color: lawngreen;
 }
