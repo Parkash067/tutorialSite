@@ -223,12 +223,12 @@ img {
   transition: all 0.5s;
 }
 #mu-menu .navbar-default .navbar-nav li > a:hover{
-    color: LawnGreen;
-    border-bottom: 2px solid lawngreen;
+    color: #45a0de;
+    border-bottom: 2px solid #45a0de;
 }
 #mu-menu .navbar-default .navbar-nav li > a:active{
-    color: LawnGreen;
-    border-bottom: 2px solid lawngreen;
+    color: #45a0de;
+    border-bottom: 2px solid #45a0de;
 }
 
 
@@ -438,7 +438,7 @@ img {
   width: 100%;
 }
 #mu-service .mu-service-area .mu-service-single {
-  background-color: lawngreen;
+  background-color: #45a0de;
   color: #fff;
   display: inline;
   float: left;
@@ -645,8 +645,8 @@ img {
 #mu-features .mu-features-area .mu-features-content .mu-single-feature span {
     font-size: 25px;
     padding: 10px 15px;
-    color: LawnGreen;
-    border: 1px solid LawnGreen;
+    color: #45a0de;
+    border: 1px solid #45a0de;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature h4 {
   margin-bottom: 15px;
@@ -2200,12 +2200,12 @@ img {
   }
 
   .navbar-toggle {
-    background-color: lawngreen;
+    background-color: #45a0de;
     border-radius: 0;
   }
 
   .navbar-default .navbar-toggle {
-    border-color: lawngreen;
+    border-color: #45a0de;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -2213,7 +2213,7 @@ img {
   }
 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: lawngreen;
+    background-color: #45a0de;
   }
 
   #mu-menu .navbar-default .navbar-nav li > a {
@@ -2516,8 +2516,8 @@ img {
  /*OWN CSS*/
 
 #mu-features .mu-features-area .mu-features-content .mu-single-feature a:hover{
-  color: LawnGreen;
-  border-color: LawnGreen;
+  color: #45a0de;
+  border-color: #45a0de;
 }
 #mu-slider .slick-prev, #mu-slider .slick-next{
   background-color: Gainsboro;
@@ -2527,28 +2527,28 @@ img {
 }
 .scrollToTop {
   background-color: Gainsboro;
-  border: 2px solid lawngreen;
+  border: 2px solid #45a0de;
 }
 #mu-menu .navbar-default .navbar-nav > .active > a, #mu-menu .navbar-default .navbar-nav > .active > a:hover, #mu-menu .navbar-default .navbar-nav > .active > a:focus{
-  color: LawnGreen;
-  border-bottom: 2px solid LawnGreen;
+  color: #45a0de;
+  border-bottom: 2px solid #45a0de;
   background-color: transparent;
 }
 #mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus{
-  border-color: LawnGreen !important;
-  background-color: lawngreen;
+  border-color: #45a0de !important;
+  background-color: #45a0de;
 }
 #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:hover, #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:focus{
-    color: lawngreen;
+    color: #45a0de;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn{
-    background-color: lawngreen;
+    background-color: #45a0de;
 }
 .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details{
-    color: lawngreen;
+    color: #45a0de;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots .slick-active{
-    background-color: lawngreen;
+    background-color: #45a0de;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-right a {
     -webkit-transition: all 800ms ease-in-out;
@@ -2563,17 +2563,23 @@ img {
     transform: scale(1.1);
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social{
-    background-color: lawngreen;
+    background-color: #45a0de;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots .slick-active{
-    background-color: lawngreen !important;
+    background-color: #45a0de !important;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info span{
-    color: lawngreen;
+    color: #45a0de;
 }
 .fa-angle-up:before {
     color: grey;
 }
 #mu-slider .mu-slider-single .mu-slider-content span {
-    background-color: lawngreen;
+    background-color: #45a0de;
+}
+#habla_window_div #habla_topbar_div{
+  background-color:#45a0de !important;
+}
+.habla_topbar_div_normal hbl_pal_title_fg hbl_pal_title_bg habla_topbar_div_compressed {
+ background-color:#45a0de !important;
 }

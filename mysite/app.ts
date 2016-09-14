@@ -21,7 +21,12 @@ app.use(express.static(path.join(__dirname,'./public')));
 app.get('/',function(req,res){
    res.render("index");
 });
-
+app.get('/courses',function(req,res){
+   res.render("course");
+});
+app.get('/contact',function(req,res){
+   res.render("contact");
+});
 var port:number=process.env.PORT||3000;
 var server=app.listen(port,function(){
 	var listenport=server.address().port;
